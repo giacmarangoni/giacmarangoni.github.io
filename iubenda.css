@@ -147,11 +147,14 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 body #iubenda-iframe #iub-cmp-widget h1,#iubenda-iframe #iub-cmp-widget h2,#iubenda-iframe #iub-cmp-widget h3,#iubenda-iframe #iub-cmp-widget h4,#iubenda-iframe #iub-cmp-widget h5,#iubenda-iframe #iub-cmp-widget h6,#iubenda-iframe #iub-cmp-widget p,#iubenda-iframe #iub-cmp-widget a,#iubenda-iframe #iub-cmp-widget ol,#iubenda-iframe #iub-cmp-widget ul,#iubenda-iframe #iub-cmp-widget li,#iubenda-iframe #iub-cmp-widget fieldset,#iubenda-iframe #iub-cmp-widget legend,#iubenda-iframe #iub-cmp-widget label,#iubenda-iframe #iub-cmp-widget div,#iubenda-iframe #iub-cmp-widget span {
     font-family: open-sans, sans-serif !important;
 }
+body .iubenda-cs-counter {
+    margin-left: 12px!important;
+  }
 #iubenda-cs-banner [class*=" iub"],
   #iubenda-cs-banner [class^=iub],
   #iubenda-cs-banner .iubenda-banner-content:not(.iubenda-custom-content) * {
     font-family: open-sans, sans-serif !important;
-    font-size: 100% !important;
+    font-size: 13px !important;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;
@@ -508,7 +511,7 @@ body #purposes-content-container .purposes-item.purposes-item-5 .purposes-item-h
     color: #303030 !important;
     font-weight: 600 !important;
     margin-bottom: 12px !important;
-    font-size: 24px !important;
+    font-size: 18px !important;
     line-height: 36px !important;
   }
 #iubenda-cs-banner .iubenda-cs-opt-group {
@@ -708,9 +711,6 @@ body #purposes-content-container .purposes-item .purposes-item-title .purposes-i
   }
 .iubenda-mobile-sdk #iubenda-cs-banner .iubenda-cs-opt-group {
     text-align: center !important;
-  }
-.iubenda-mobile-sdk #iubenda-cs-banner .iubenda-cs-close-btn {
-    display: none !important;
   }
 .iubenda-mobile-sdk #iubenda-cs-banner .iubenda-cs-rationale {
     display: flex !important;
