@@ -149,6 +149,8 @@ body #iubenda-iframe #iub-cmp-widget h1,#iubenda-iframe #iub-cmp-widget h2,#iube
 }
 body #iubenda-cs-banner [class^=iub] .iubenda-cs-counter {
     margin-left: 12px !important;
+    text-align: center !important;
+    font-weight: 600 !important;
   }
 #iubenda-cs-banner [class*=" iub"],
   #iubenda-cs-banner [class^=iub],
