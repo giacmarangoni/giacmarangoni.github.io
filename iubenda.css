@@ -147,14 +147,14 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 body #iubenda-iframe #iub-cmp-widget h1,#iubenda-iframe #iub-cmp-widget h2,#iubenda-iframe #iub-cmp-widget h3,#iubenda-iframe #iub-cmp-widget h4,#iubenda-iframe #iub-cmp-widget h5,#iubenda-iframe #iub-cmp-widget h6,#iubenda-iframe #iub-cmp-widget p,#iubenda-iframe #iub-cmp-widget a,#iubenda-iframe #iub-cmp-widget ol,#iubenda-iframe #iub-cmp-widget ul,#iubenda-iframe #iub-cmp-widget li,#iubenda-iframe #iub-cmp-widget fieldset,#iubenda-iframe #iub-cmp-widget legend,#iubenda-iframe #iub-cmp-widget label,#iubenda-iframe #iub-cmp-widget div,#iubenda-iframe #iub-cmp-widget span {
     font-family: open-sans, sans-serif !important;
 }
-body .iubenda-cs-counter {
-    margin-left: 12px!important;
+body #iubenda-cs-banner [class^=iub] .iubenda-cs-counter {
+    margin-left: 12px !important;
   }
 #iubenda-cs-banner [class*=" iub"],
   #iubenda-cs-banner [class^=iub],
   #iubenda-cs-banner .iubenda-banner-content:not(.iubenda-custom-content) * {
     font-family: open-sans, sans-serif !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;
@@ -472,8 +472,8 @@ body #purposes-content-container .purposes-item.purposes-item-5 .purposes-item-h
     top: -2px !important;
     padding: 16px !important;
     right: 0 !important;
-    min-width: 48px !important;
-    height: 48px !important;
+    min-width: 60px !important;
+    height: 60px !important;
     font-size: 24px !important;
     line-height: 0 !important;
     font-weight: lighter !important;
