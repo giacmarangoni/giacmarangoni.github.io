@@ -165,7 +165,6 @@ body #iubenda-cs-banner [class^=iub] .iubenda-cs-counter {
   #iubenda-cs-banner [class^=iub],
   #iubenda-cs-banner .iubenda-banner-content:not(.iubenda-custom-content) * {
     font-family: open-sans, sans-serif !important;
-    font-size: 12px !important;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;
@@ -198,7 +197,6 @@ body #iubenda-cs-banner [class^=iub] .iubenda-cs-counter {
     height: auto !important;
     left: auto !important;
     letter-spacing: normal !important;
-    line-height: normal !important;
     list-style-type: inherit !important;
     list-style-position: outside !important;
     list-style-image: none !important;
@@ -788,6 +786,6 @@ body #purposes-content-container .purposes-item .purposes-item-title .purposes-i
     z-index: 9999 !important;
   }
 #iubenda-cs-banner .iubenda-banner-content:not(.iubenda-custom-content) * {
-    font-size: 15px !important;
+    font-size: 13px !important;
     line-height: 22px !important;
 }
