@@ -788,6 +788,6 @@ body #purposes-content-container .purposes-item .purposes-item-title .purposes-i
     z-index: 9999 !important;
   }
 #iubenda-cs-banner .iubenda-banner-content:not(.iubenda-custom-content) * {
-    font-size: 13px !important;
+    font-size: 15px !important;
     line-height: 22px !important;
 }
