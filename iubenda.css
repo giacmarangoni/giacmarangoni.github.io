@@ -156,7 +156,7 @@ body #iubenda-cs-banner [class^=iub] .iubenda-cs-counter {
   #iubenda-cs-banner [class^=iub],
   #iubenda-cs-banner .iubenda-banner-content:not(.iubenda-custom-content) * {
     font-family: open-sans, sans-serif !important;
-    font-size: 12px !important;
+    font-size: 12.5px !important;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;
@@ -281,7 +281,7 @@ body #iubenda-cs-banner [class^=iub] .iubenda-cs-counter {
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
-    border-radius: 4px !important;
+    border-radius: 6px !important;
     background-color: white !important;
     color: #222 !important;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.1) !important;
@@ -533,7 +533,7 @@ body #iubenda-iframe .iub-legitimate-interest-checkbox input[type=checkbox]:chec
   background-color: #5B6593 !important;
   }
 #iubenda-cs-banner .iubenda-cs-opt-group {
-    margin: 12px !important;
+    padding: 12px !important;
     flex-direction: column !important;
   }
 #iubenda-cs-banner .iubenda-cs-opt-group-custom {
@@ -552,6 +552,7 @@ body #iubenda-iframe .iub-legitimate-interest-checkbox input[type=checkbox]:chec
     cursor: pointer !important;
     border-width: 1px !important;
     border-style: solid !important;
+    border-color: #DEE0EC !important;
     z-index: 9999 !important;
     --tw-border-opacity: 1 !important;
     padding-left: 0.5rem !important;
@@ -656,6 +657,8 @@ body #iubenda-iframe .iub-legitimate-interest-checkbox input[type=checkbox]:chec
   }
 #iubenda-cs-banner .iubenda-cs-opt-group {
     color: #000000 !important;
+    background-color: #FAFAFC !important;
+    border-top: 1px solid #EEEEEE !important;
   }
 body #iubenda-cs-banner .iubenda-cs-opt-group .iubenda-cs-accept-btn {
     font-family: open-sans, sans-serif !important;
@@ -718,7 +721,7 @@ body #purposes-content-container .purposes-item .purposes-item-title .purposes-i
 .iubenda-mobile-sdk #iubenda-cs-banner .iubenda-banner-content {
     height: 30vh !important;
     --tw-text-opacity: 1 !important;
-    color: #303030 !important;
+    color: #484848 !important;
     box-sizing: border-box !important;
     padding-top: 8px !important;
     overflow-y: auto !important;
