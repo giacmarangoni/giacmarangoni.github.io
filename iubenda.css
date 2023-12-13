@@ -596,11 +596,6 @@ body #iubenda-iframe .iub-legitimate-interest-checkbox input[type=checkbox]:chec
       margin: 16px auto !important;
     }
   }
-@media (max-width: 991px) {
-    #iubenda-cs-banner.iubenda-cs-default .iubenda-cs-content {
-      padding: 8px !important;
-    }
-  }
 #iubenda-cs-banner.iubenda-cs-default-floating .iubenda-cs-brand {
     margin: -8px -8px 0 !important;
   }
