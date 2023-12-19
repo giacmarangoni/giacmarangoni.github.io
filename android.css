@@ -77,26 +77,6 @@ IMPORTANT: Changing the following values may prevent the notice from being displ
 -----------------
 */
 @font-face {
-    font-family: 'studiopro';
-    src: url('/fonts/studio-pro/StudioPro.eot');
-    src: url('/fonts/studio-pro/StudioPro.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/studio-pro/StudioPro.woff2') format('woff2'),
-         url('/fonts/studio-pro/StudioPro.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'studiopro';
-    src: url('/fonts/studio-pro/StudioPro-Nerissimo.eot');
-    src: url('/fonts/studio-pro/StudioPro-Nerissimo.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/studio-pro/StudioPro-Nerissimo.woff2') format('woff2'),
-         url('/fonts/studio-pro/StudioPro-Nerissimo.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
     font-family: 'open-sans';
     src: url('/fonts/open-sans/regular.eot');
     src: url('/fonts/open-sans/regular.eot?#iefix') format('embedded-opentype'),
@@ -526,6 +506,7 @@ body #purposes-content-container .purposes-item.purposes-item-5 .purposes-item-h
     font-weight: lighter !important;
     cursor: pointer !important;
     text-align: center !important;
+    z-index: 999999 !important;
 }
 #iubenda-cs-banner .iubenda-cs-close-btn:hover {
     opacity: 0.5 !important;
@@ -579,8 +560,9 @@ body #iubenda-iframe .iub-legitimate-interest-checkbox input[type='checkbox']:ch
     background-color: #5b6593 !important;
 }
 #iubenda-cs-banner .iubenda-cs-opt-group {
-    padding: 12px !important;
+    color: #000000 !important;
     flex-direction: column !important;
+    padding: 12px !important;
 }
 #iubenda-cs-banner .iubenda-cs-opt-group-custom {
     order: 2;
@@ -590,7 +572,7 @@ body #iubenda-iframe .iub-legitimate-interest-checkbox input[type='checkbox']:ch
 }
 #iubenda-cs-banner .iubenda-cs-opt-group button {
     font-family: open-sans, sans-serif !important;
-    border-radius: 4px !important;
+    border-radius: 6px !important;
     font-weight: 600 !important;
     height: 48px !important;
     font-size: 14px !important;
@@ -724,11 +706,6 @@ body #iubenda-iframe .iub-legitimate-interest-checkbox input[type='checkbox']:ch
 #iubenda-cs-banner.iubenda-cs-fix-height .iubenda-cs-brand img {
     max-width: 75% !important;
 }
-#iubenda-cs-banner .iubenda-cs-opt-group {
-    color: #000000 !important;
-    background-color: #fafafc !important;
-    border-top: 1px solid #eeeeee !important;
-}
 body #iubenda-cs-banner .iubenda-cs-opt-group .iubenda-cs-accept-btn {
     font-family: open-sans, sans-serif !important;
     font-weight: 600 !important;
@@ -740,12 +717,12 @@ body #iubenda-cs-banner .iubenda-cs-opt-group .iubenda-cs-accept-btn {
     height: 48px !important;
 }
 body #iubenda-iframe [tabindex]:not([tabindex='-1']):focus,
-#iubenda-iframe a[href]:focus,
-#iubenda-iframe button:focus,
-#iubenda-iframe details:focus,
-#iubenda-iframe input:focus,
-#iubenda-iframe select:focus,
-#iubenda-iframe textarea:focus {
+body #iubenda-iframe a[href]:focus,
+body #iubenda-iframe button:focus,
+body #iubenda-iframe details:focus,
+body #iubenda-iframe input:focus,
+body #iubenda-iframe select:focus,
+body #iubenda-iframe textarea:focus {
     outline-color: #515a84 !important;
     outline-width: 2px !important;
     outline-style: solid !important;
@@ -759,7 +736,7 @@ body #iubenda-iframe [tabindex]:not([tabindex='-1']):focus,
 body #iubenda-iframe #iubFooterBtnContainer button {
     --tw-bg-opacity: 1 !important;
     background-color: #5b6593 !important;
-    border-radius: 4px !important;
+    border-radius: 6px !important;
     font-size: 14px !important;
     font-weight: 600 !important;
     height: 48px !important;
@@ -767,6 +744,18 @@ body #iubenda-iframe #iubFooterBtnContainer button {
 #iubenda-iframe #purposes-content-container .purposes-checkbox input:checked {
     --tw-bg-opacity: 1 !important;
     background-color: #5b6593 !important;
+}
+body #iubenda-iframe .iub-btn-consent.iub-btn-accept {
+    color: #000 !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 515.556 515.556' height='512px' viewBox='0 0 515.556 515.556' width='512px' class=''%3E%3Cg%3E%3Cpath d='m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%23000000'/%3E%3C/g%3E%3C/svg%3E%0A")!important;
+}
+body #iubenda-iframe .iub-btn-consent.iub-btn-reject {
+    color: #000 !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 386.667 386.667' height='512px' viewBox='0 0 386.667 386.667' width='512px' class=''%3E%3Cg%3E%3Cpath d='m386.667 45.564-45.564-45.564-147.77 147.769-147.769-147.769-45.564 45.564 147.769 147.769-147.769 147.77 45.564 45.564 147.769-147.769 147.769 147.769 45.564-45.564-147.768-147.77z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%23000000'/%3E%3C/g%3E%3C/svg%3E%0A")!important;
 }
 body #purposes-content-container .purposes-item .purposes-item-title .purposes-item-title-btn:after {
     opacity: 1 !important;
@@ -797,6 +786,7 @@ body #purposes-content-container .purposes-item .purposes-item-title .purposes-i
     font-family: open-sans, sans-serif !important;
     height: 30vh !important;
     --tw-text-opacity: 1 !important;
+    padding-right: 25px !important;
     color: #484848 !important;
     box-sizing: border-box !important;
     padding-top: 8px !important;
@@ -859,7 +849,13 @@ body #purposes-content-container .purposes-item .purposes-item-title .purposes-i
     z-index: 9999 !important;
 }
 #iubenda-cs-banner .iubenda-banner-content:not(.iubenda-custom-content) * {
-    font-size: 13px !important;
-    line-height: 22px !important;
+    font-size: 12.5px !important;
+    line-height: 21px !important;
 }
-
+.iubenda-mobile-sdk #iubenda-iframe .iubenda-iframe-footer {
+    background-color: #F6F6F9 !important;
+}
+#iubenda-cs-banner .iubenda-cs-opt-group {
+    background-color: #F6F6F9 !important;
+    border-top: 1px solid #eeeeee !important;
+}
